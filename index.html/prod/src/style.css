@@ -1,1 +1,179 @@
-defwevgwdefewf
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 200vh;
+    width: 100%;
+
+    background-color: #251241;
+}
+
+nav {
+    align-items: center;
+    justify-content: space-around;
+
+    display: flex;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+header {
+    width: 100%;
+    height: 5rem;
+    top: 0;
+    position: fixed;
+    padding: 1.5rem;
+
+    background-color: rgb(0, 0, 0, 0.3);
+}
+
+.img {
+    height: 4rem;
+    width: 4rem;
+
+    margin-right: 1rem;
+}
+
+.header-content {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+.container-header {
+    margin-right: 20rem;
+    align-items: center;
+    
+    display: flex;
+}
+
+.container-items-nav {
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.container-line {
+    margin-top: 1rem;
+    justify-content: center;
+    display: flex;
+}
+
+.line {
+    width: 70%;
+    background-color: black;
+    height: 0.2rem;
+
+    opacity: 0.3;
+}
+
+a {
+    font-weight: 400;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.container-items-nav .container-list .dropdown .dropdown-content a:hover {
+    background: red;
+}
+
+.container-items-nav .container-list .options a:hover {
+    color: red;
+    font-weight: 600;
+}
+
+
+.title {
+    color: white;
+    font-weight: 600;
+    font-family: sans-serif;
+
+    font-size: 1.5rem;
+    display: inline-block;
+}
+
+.options {
+    width: 100%;
+
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.container-list {
+    height: 100%;
+    width: 20rem;
+
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+.main-drop:hover {
+    font-weight: 600;
+    color: red;
+}
+
+.dropdown-content {
+    background-color: black;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    display: none;
+}
+
+.dropdown .dropdown-content a {
+    display: block;
+    line-height: 2.5rem;
+}
+
+.dropdown-content {
+    width: 8rem;
+    position: absolute;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dialogo {
+    margin-top: 2rem;
+    height: 5rem;
+    width: 20rem;
+
+    background-color: black;
+    border-radius: 3rem;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.title:hover .dialogo{
+    display: flex;
+}
+
+.dialogo h3 {
+    color: red;
+}
+
+.container-footer {
+    height: 10rem;
+    width: 100%;
+
+    bottom: -100%;
+    position: absolute;
+    background-color: black;
+}
